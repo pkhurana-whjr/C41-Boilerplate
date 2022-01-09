@@ -1,0 +1,16 @@
+steps:
+1. store 'rank' of the players in player.js
+2. create 'CarsAtEnd' in the DB to store rank there
+3. create the function to read and write CarsAtEnd from the DB
+4. call the function getCarsAtEnd from play()
+5. reset CarsAtEnd in handleResetButton
+6. draw a line to end the game and update the gameState to 2 when player reaches finish line. also showRank 
+7. create showRank function to show rank
+8. create showLife to display rectangles for the player's life. 
+9. call the function showLife from play()
+10. create showFuelBar function to show rectangles for fuel
+11. call the above function in play()
+12. reduce the fuel when the car is moving and if it is greater than 0. End the  game if the  fuel is less than 0
+13. Write the gameOver function
+14. Give AI to the game. The car should move automatically once the playerMoving is true. (without pressing the up arrow key)
+
